@@ -1,15 +1,68 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Helpers for Ingress passcodes decoding</title>
+  <title>Helpers for Ingress passcodes decoding</title>
 
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
+
+<div class="container">
+      <h2>Caesar rotation with numbers</h2>
+      <p>Here you can get all ROT N rotations with numbers</p>
+
+      <div class="row">
+        <div class="one-half column">
+          <form>
+            <input type="text" id="inText" placeholder="Original text" class="u-full-width" oninput="makeRotations()" >
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one-half column">
+          <ul>
+            <li>ROT&nbsp;01&nbsp;=&nbsp;<span id="rot1"></span></li>
+            <li>ROT&nbsp;02&nbsp;=&nbsp;<span id="rot2"></span></li>
+            <li>ROT&nbsp;03&nbsp;=&nbsp;<span id="rot3"></span></li>
+            <li>ROT&nbsp;04&nbsp;=&nbsp;<span id="rot4"></span></li>
+            <li>ROT&nbsp;05&nbsp;=&nbsp;<span id="rot5"></span></li>
+            <li>ROT&nbsp;06&nbsp;=&nbsp;<span id="rot6"></span></li>
+            <li>ROT&nbsp;07&nbsp;=&nbsp;<span id="rot7"></span></li>
+            <li>ROT&nbsp;08&nbsp;=&nbsp;<span id="rot8"></span></li>
+            <li>ROT&nbsp;09&nbsp;=&nbsp;<span id="rot9"></span></li>
+            <li>ROT&nbsp;10&nbsp;=&nbsp;<span id="rot10"></span></li>
+            <li>ROT&nbsp;11&nbsp;=&nbsp;<span id="rot11"></span></li>
+            <li>ROT&nbsp;12&nbsp;=&nbsp;<span id="rot12"></span></li>
+            <li>ROT&nbsp;13&nbsp;=&nbsp;<span id="rot13"></span></li>
+          </ul>
+        </div>
+        <div class="one-half column">
+          <ul>
+            <li>ROT&nbsp;14&nbsp;=&nbsp;<span id="rot14"></span></li>
+            <li>ROT&nbsp;15&nbsp;=&nbsp;<span id="rot15"></span></li>
+            <li>ROT&nbsp;16&nbsp;=&nbsp;<span id="rot16"></span></li>
+            <li>ROT&nbsp;17&nbsp;=&nbsp;<span id="rot17"></span></li>
+            <li>ROT&nbsp;18&nbsp;=&nbsp;<span id="rot18"></span></li>
+            <li>ROT&nbsp;19&nbsp;=&nbsp;<span id="rot19"></span></li>
+            <li>ROT&nbsp;20&nbsp;=&nbsp;<span id="rot20"></span></li>
+            <li>ROT&nbsp;21&nbsp;=&nbsp;<span id="rot21"></span></li>
+            <li>ROT&nbsp;22&nbsp;=&nbsp;<span id="rot22"></span></li>
+            <li>ROT&nbsp;23&nbsp;=&nbsp;<span id="rot23"></span></li>
+            <li>ROT&nbsp;24&nbsp;=&nbsp;<span id="rot24"></span></li>
+            <li>ROT&nbsp;25&nbsp;=&nbsp;<span id="rot25"></span></li>
+            <li>ROT&nbsp;26&nbsp;=&nbsp;<span id="rot26"></span></li>
+          </ul>
+        </div>
+      </div>
+</div>
 
 </body>
 </html>
